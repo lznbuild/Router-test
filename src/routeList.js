@@ -2,21 +2,21 @@ export const ROUTELIST = [
   {
     path: '/',
     name: 'index',
-    component: 'This is index page'
+    component: '首页的内容'
   },
   {
-    path: '/hash',
-    name: 'hash',
-    component: 'This is hash page'
+    path: '/page1',
+    name: 'page1',
+    component: 'page1的内容'
   },
   {
-    path: '/history',
-    name: 'history',
-    component: 'This is history page'
+    path: '/page2',
+    name: 'page2',
+    component: 'page2的内容'
   },
   {
     path: '*',
     name: 'notFound',
-    component: '404 NOT FOUND'
+    component: '404'
   }
 ];

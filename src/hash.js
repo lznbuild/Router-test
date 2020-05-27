@@ -8,7 +8,7 @@ export class HashRouter extends BaseRouter {
     });
   }
   handler() {
-    this.render(this.getState());
+    this.render(this.getState()); // 继承自BaseRouter的render方法
   }
   getState() {
     const hash = window.location.hash;
