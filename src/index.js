@@ -2,7 +2,7 @@ import { HashRouter } from './hash';
 import { HistoryRouter } from './history';
 import { ROUTELIST } from './routeList';
 //路由模式
-const MODE = 'hash'; // hash
+const MODE = 'history'; // hash
 class WebRouter {
   constructor({ mode = 'hash', routeList }) {
     this.router = mode === 'hash' ? new HashRouter(routeList) : new HistoryRouter(routeList);
